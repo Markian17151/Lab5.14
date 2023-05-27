@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Task5 {
     public static void main(String[] args) {
-        Scanner martin = new Scanner(System.in);
+        Scanner sr = new Scanner(System.in);
 
         System.out.println("Введіть, будь ласка, перший рядок:");
-        String firstSentence = martin.nextLine();
+        String firstSentence = sr.nextLine();
 
         System.out.println("Введіть, будь ласка, другий рядок:");
-        String secondSentence = martin.nextLine();
+        String secondSentence = sr.nextLine();
 
         int a = firstSentence.length();
         int b = secondSentence.length();
