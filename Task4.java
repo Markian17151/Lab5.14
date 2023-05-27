@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Task4 {
     public static void main(String[] args) {
-        Scanner martin = new Scanner(System.in);
+        Scanner sr = new Scanner(System.in);
 
         System.out.print("Введіть перше ім'я: ");
-        String firstName = martin.nextLine();
+        String firstName = sr.nextLine();
 
         System.out.print("Введіть друге ім'я: ");
-        String secondName = martin.nextLine();
+        String secondName = sr.nextLine();
 
         if (firstName.equalsIgnoreCase(secondName)) {
             System.out.println("Імена однакові.");
